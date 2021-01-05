@@ -4,7 +4,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <div>
+    <div className="backdrop">
       Hello!
       <video className="martyr-video" autoPlay loop muted>
         <source src={Martyr} type='video/mp4' />
