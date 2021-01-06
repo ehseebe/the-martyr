@@ -68,6 +68,7 @@ const App = () => {
           </Route>
         </Switch>
       </div>
+      <footer> footer </footer>
     </Router>
     
   )
