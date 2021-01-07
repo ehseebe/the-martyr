@@ -73,6 +73,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .main-title-overlay {
@@ -184,6 +185,7 @@ footer {
   font-weight: 700;
   text-transform: uppercase;
   padding: 1.5em;
+  text-align: center;
 }
 
 /* hamburger menu */
