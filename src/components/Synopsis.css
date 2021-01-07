@@ -1,0 +1,21 @@
+.synopsis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20em;
+}
+
+.title {
+  font-size: 10vw;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+.subhead {
+  initial-letter: 2;
+}
