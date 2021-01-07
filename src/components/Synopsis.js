@@ -5,8 +5,8 @@ const Synopsis = () => {
   return (
     <section>
       <div className="synopsis">
-        <h1 className="title"> The Martyr </h1>
-        <p>
+        <h1 className="title fade-in-bottom"> The Martyr </h1>
+        <p className="fade-in-top">
           They say never meet your heroes. But what if your hero, like Margot K.
           Juby’s, is a 15th century serial killer? Gilles de Rais was a
           nobleman, decorated military statesman—and one of the grisliest
