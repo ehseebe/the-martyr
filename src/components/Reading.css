@@ -1,0 +1,28 @@
+.further-reading {
+  width: 90%;
+  height: 90%;
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 15vw;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
+
+p {
+  text-align: justify;
+}
+
+div > ul {
+  display: inline;
+  list-style: none;
+}
