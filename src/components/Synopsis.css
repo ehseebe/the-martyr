@@ -1,13 +1,15 @@
 .synopsis {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 0 20em;
+  margin: auto;
+  height: 100%;
+  padding-top: 20vh;
+  padding-bottom: 5em;
 }
 
 .title {
-  font-size: 10vw;
+  font-size: 15vw;
   letter-spacing: 3px;
   display: flex;
   align-items: center;
@@ -16,6 +18,11 @@
   margin: 0;
 }
 
-.subhead {
-  initial-letter: 2;
+p {
+  width: 75%
+}
+
+p::first-letter {
+  font-family: "Pirata One", cursive;
+  font-size: 7vw;
 }
