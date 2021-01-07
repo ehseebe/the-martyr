@@ -86,7 +86,7 @@ const App = () => {
           </Route>
         </Switch>
       </div>
-      <footer>  © 2021 Edmund Stenson and James Varney. All rights reserved. </footer>
+      {/* <footer>  © 2021 Edmund Stenson and James Varney. All rights reserved. </footer> */}
     </Router>
     
   )
