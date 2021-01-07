@@ -15,7 +15,7 @@ const Reading = () => {
           what you think.{" "}
         </p>
 
-        <div className="category__literary-fiction">
+        <div className="reading-category">
           <h2>Literary Fiction</h2>
           <ul>
             <li>1891: Là-bas, JK Huysmans</li>
@@ -23,6 +23,30 @@ const Reading = () => {
             <li>
               1990: The Life and Death of my Lord, Gilles de Rais, Robert Nye
             </li>
+          </ul>
+        </div>
+
+        <div className="reading-category">
+          <h2>Comic Books</h2>
+          <ul>
+            <li>1972: Le Crapouillot - N° 22 : Love & Magic, from Gilles de Rais to Rasputin, various</li>
+            <li>1989: Jhen, Jean Pleyers and Jacques Martin</li>
+          </ul>
+        </div>
+
+        <div className="reading-category">
+          <h2>Non-fiction/True Crime</h2>
+          <ul>
+            <li>1858: Curiosités de l’histoire de la France, Paul Lacroix</li>
+            <li>1885: Gilles de Rais, Eugène Bossard</li>
+            <li>1930: The Banned Lectures: Gilles de Rais, Aleister Crowley</li>
+            <li>1959: The Trial of Gilles de Rais, Georges Bataille</li>
+            <li>1971: The Real Bluebeard, Jean Benedetti</li>
+            <li>1992: Gilles de Rais ou La Gueule du loup, Gilbert Prouteau</li>
+            <li>1992: Plaidoyer pour Gilles de Rais, Jean-Pierre Bayard</li>
+            <li>2005: Gilles de Rais, Jacques Heers</li>
+            <li>2012: Gilles de Rais, Matei Cazacu</li>
+            <li>2016: The Horrific Crimes of Gilles de Rais Revisited, Jack Smith</li>
           </ul>
         </div>
       </article>
