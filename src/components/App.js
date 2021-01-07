@@ -28,10 +28,13 @@ const App = () => {
     <span></span>
     
     <ul id="menu">
-      <a href="#"><li>Home</li></a>
-      <a href="#"><li>About</li></a>
-      <a href="#"><li>Info</li></a>
-      <a href="#"><li>Contact</li></a>
+      <a href="/"><li>Home</li></a>
+      <a href="/synopsis"><li>Synopsis</li></a>
+      <a href="/trailer"><li>Trailer</li></a>
+      <a href="/innocent"><li>Innocent?</li></a>
+      <a href="/artwork"><li>Artwork</li></a>
+      <a href="/reading"><li>Reading</li></a>
+      <a href="/timeline"><li>Timeline</li></a>
     </ul>
   </div>
           <ul id="desktop-menu">
@@ -45,7 +48,7 @@ const App = () => {
               <Link to="/trailer">Trailer</Link>
             </li>
             <li>
-              <Link to="/innocent">Innocent</Link>
+              <Link to="/innocent">Innocent?</Link>
             </li>
             <li>
               <Link to="/artwork">Artwork</Link>

@@ -9,7 +9,8 @@ const Home = () => {
         <source src={Martyr} type='video/mp4' />
       </video>
       <div className="main-title-overlay">
-      <h1 className="main-title">The Martyr</h1>
+      <h1 className="main-title fade-in-bottom">The Martyr</h1>
+      <h4 className="main-subtitle fade-in-top">A film by Edmund Stenson</h4>
       </div>
     </section>
   )
