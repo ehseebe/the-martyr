@@ -22,7 +22,7 @@ const Home = () => {
           <div className="synopsis-heading">
             heading
             <div className="synopsis-body">
-              synopsis body
+              
             </div>
           </div>
         </div>
