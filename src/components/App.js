@@ -40,20 +40,23 @@ const App = () => {
             <li>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/synopsis">Synopsis</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/trailer">Trailer</Link>
             </li>
+
             <li>
-              <Link to="/innocent">Innocent?</Link>
+            <Link to="/innocent" className="innocent">Was He Innocent?</Link>
+            
+              
             </li>
-            <li>
+            {/* <li>
               <Link to="/artwork">Artwork</Link>
-            </li>
+            </li> */}
             <li>
-              <Link to="/reading">Reading</Link>
+              <Link to="/reading">Resources</Link>
             </li>
             <li>
               <Link to="/timeline">Timeline</Link>

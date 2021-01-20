@@ -41,6 +41,7 @@ nav {
   left: 0;
   z-index: 5;
   height: 7vh;
+  margin-top: 2.5em;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,6 +71,33 @@ nav a {
 nav a:hover {
   color: #b93f2d;
 }
+
+nav li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innocent {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 75%; */
+  text-align: center;
+  font-weight: 600;
+  background: #b9402db4
+  url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+border-radius: 50%;
+height: 125px;
+width: 125px;
+transition: 0.5s;
+}
+
+.innocent:hover {
+  background: #b9402d url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  color: black;
+}
+
 
 section {
   height: 100vh;
