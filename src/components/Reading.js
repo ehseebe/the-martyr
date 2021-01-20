@@ -4,7 +4,7 @@ import "./Reading.css";
 const Reading = () => {
   return (
     <section className="container-body-reading">
-      <article className="further-reading fade-in">
+      <article className="further-reading text-focus-in">
         {/* <h1 className="title">Reading</h1> */}
         <p>
           Gilles de Rais has captured the European artistic imagination for
