@@ -3,7 +3,7 @@ import './Synopsis.css';
 
 const Synopsis = () => {
   return (
-    <section>
+    <section className="container-body">
       <div className="synopsis">
         <h1 className="title fade-in-bottom"> The Martyr </h1>
         <p className="fade-in-top">
@@ -14,8 +14,12 @@ const Synopsis = () => {
           murderers in recorded history. Or, at least, that’s what history tells
           us. But Margot’s fanatical, 20-year long research project suggests
           otherwise. According to her, de Rais was the victim of a vast
-          conspiracy. She’s so sure that she has “Gilles de Rais was innocent”
-          tattooed on her arm. <br/><br/>
+          conspiracy. <br/><br/>
+          
+          <a href='/innocent'><h3 className="main-subtitle">She’s so sure that she has <br/> <h3 className="synopsis-quote">"“Gilles de Rais was innocent”</h3>
+          tattooed on her arm. <br/></h3></a>
+
+          {/* <h2 className="main-subtitle">is he innocent?</h2> */}
           
           The Martyr interweaves the deeply personal story
           of how Margot came to fall in love with de Rais, with a gothic,
@@ -26,6 +30,8 @@ const Synopsis = () => {
           of unrequited love, The Martyr is a film about the dark obsessions
           that shape all of us.
         </p>
+
+        <a href='/timeline'><h2 className="main-subtitle">who was Gilles de Rais?</h2></a>
       </div>
     </section>
   );
