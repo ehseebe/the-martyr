@@ -25,7 +25,6 @@ const Home = () => {
           <figure className="circle flicker-1 shadow-inset-center">
             <a href="/timeline"><h4 className="main-subtitle">who was Gilles de Rais?</h4></a>
           </figure>
-          {/* <button className="homepage-cta"> enter </button> */}
         </div>
 
         
