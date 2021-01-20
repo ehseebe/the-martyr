@@ -15,10 +15,11 @@ const Home = () => {
 
       <section>
         <div className="main-title-overlay">
+        <a href="/synopsis">
         <h4 className="main-subtitle fade-in-bottom">
             <img src="http://themartyrfilm.com/wp-content/uploads/2021/01/the-martyr-subtitle-768x97.png" alt="the-martyr-subtitle" />
           </h4>
-          <a href="/timeline">
+          
             <h1 className="main-title fade-in-top">
             <img src="http://themartyrfilm.com/wp-content/uploads/2021/01/the-martyr-title-1024x297.png" alt="the-martyr-main-title" />
           </h1>

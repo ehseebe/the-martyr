@@ -23,28 +23,6 @@ a {
     text-decoration: none;
 }
 
-.circle {
-  display: block;
-  background: #b9402db4
-    url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Pirata One", cursive;
-  letter-spacing: 2px;
-  color: white;
-  transition: 0.5s;
-}
-
-.circle:hover {
-  background: #b9402d
-    url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-}
-
 .shadow-inset-center {
 	-webkit-animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: shadow-inset-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
