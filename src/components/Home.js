@@ -15,7 +15,7 @@ const Home = () => {
 
       <section>
         <div className="main-title-overlay">
-        <a href="/synopsis">
+        <a href="/synopsis" className="main-title-hover">
         <h4 className="main-subtitle fade-in-bottom">
             <img src="https://i.ibb.co/qdpGbCY/the-martyr-subtitle.png" alt="the-martyr-subtitle" />
           </h4>

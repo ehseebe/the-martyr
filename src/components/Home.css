@@ -17,6 +17,15 @@
   max-width: 70%;
   text-align: center;
   font-size: x-large;
+  margin: auto;
+}
+
+.main-title-hover {
+    transition: all .5s ease-in;
+}
+
+.main-title-hover:hover {
+    transform: scale(1.05);
 }
 
 a {
