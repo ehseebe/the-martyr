@@ -6,10 +6,10 @@ const Synopsis = () => {
     <section className="container-body">
       <div className="synopsis">
       <h4 className="main-subtitle fade-in-bottom">
-            <img src="http://themartyrfilm.com/wp-content/uploads/2021/01/the-martyr-subtitle-768x97.png" alt="the-martyr-subtitle" />
+            <img src="https://i.ibb.co/qdpGbCY/the-martyr-subtitle.png" alt="the-martyr-subtitle" />
           </h4>
           <h1 className="main-title fade-in-top">
-            <img src="http://themartyrfilm.com/wp-content/uploads/2021/01/the-martyr-title-1024x297.png" alt="the-martyr-main-title" />
+            <img src="https://i.ibb.co/7WGg8bg/the-martyr-title.png" alt="the-martyr-main-title" />
           </h1>
           <div className="synopsis-block">
         <p className="text-focus-in">

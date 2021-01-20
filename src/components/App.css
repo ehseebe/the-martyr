@@ -21,7 +21,7 @@
 * {
   width: 100%;
   color: white;
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
   font-weight: 300;
 }
 
@@ -79,25 +79,25 @@ nav li {
 }
 
 .innocent {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   /* width: 75%; */
   text-align: center;
   font-weight: 600;
   background: #b9402db4
-  url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-border-radius: 50%;
-height: 125px;
-width: 125px;
-transition: 0.5s;
+    url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  transition: 0.5s;
 }
 
 .innocent:hover {
-  background: #b9402d url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  background: #b9402d
+    url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
   color: black;
 }
-
 
 section {
   height: 100vh;
@@ -113,7 +113,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Spartan', sans-serif;
+  font-family: "Spartan", sans-serif;
   font-weight: 600;
   letter-spacing: 2px;
   color: white;
