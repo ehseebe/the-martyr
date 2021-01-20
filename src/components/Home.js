@@ -1,9 +1,12 @@
 import React from "react";
+// import axios from "axios";
 import Martyr from "./video/martyr-video.mp4";
 import "./App.css";
 import "./Home.css";
 
 const Home = () => {
+
+
   return (
     <>
     <video className="martyr-video" autoPlay loop muted>
@@ -12,12 +15,17 @@ const Home = () => {
 
       <section>
         <div className="main-title-overlay">
-          <h1 className="main-title fade-in-bottom">The Martyr</h1>
-          <h4 className="main-subtitle fade-in-top">
-            A short film by Edmund Stenson
+        <h4 className="main-subtitle fade-in-bottom">
+            <img src="http://themartyrfilm.com/wp-content/uploads/2021/01/the-martyr-subtitle-768x97.png" alt="the-martyr-subtitle" />
           </h4>
+          <h1 className="main-title fade-in-top">
+            <img src="http://themartyrfilm.com/wp-content/uploads/2021/01/the-martyr-title-1024x297.png" alt="the-martyr-main-title" />
+          </h1>
 
-          <button className="homepage-cta"> enter </button>
+          <figure className="circle flicker-1 shadow-inset-center">
+            <h4 className="main-subtitle">who was Gilles de Rais?</h4>
+          </figure>
+          {/* <button className="homepage-cta"> enter </button> */}
         </div>
 
         
