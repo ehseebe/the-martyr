@@ -18,13 +18,15 @@ const Home = () => {
         <h4 className="main-subtitle fade-in-bottom">
             <img src="http://themartyrfilm.com/wp-content/uploads/2021/01/the-martyr-subtitle-768x97.png" alt="the-martyr-subtitle" />
           </h4>
-          <h1 className="main-title fade-in-top">
+          <a href="/timeline">
+            <h1 className="main-title fade-in-top">
             <img src="http://themartyrfilm.com/wp-content/uploads/2021/01/the-martyr-title-1024x297.png" alt="the-martyr-main-title" />
           </h1>
+          </a>
 
-          <figure className="circle flicker-1 shadow-inset-center">
+          {/* <figure className="circle flicker-1 shadow-inset-center">
             <a href="/timeline"><h4 className="main-subtitle">who was Gilles de Rais?</h4></a>
-          </figure>
+          </figure> */}
         </div>
 
         
