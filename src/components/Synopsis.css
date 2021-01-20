@@ -2,7 +2,9 @@
   height: 100%;
   width: 100%;
   padding-top: 7vh;
-  background: url("https://i.ibb.co/njg8x7w/bg-synopsis.jpg") no-repeat 0% 0%;
+  background: url("https://i.ibb.co/njg8x7w/bg-synopsis.jpg");
+  background-size: cover;
+  background-position: center;
 }
 .synopsis {
   display: flex;
@@ -26,30 +28,37 @@
 }
 
 p {
-  width: 75%;
   text-align: justify;
   line-height: 25px;
+  padding:0;
 }
 
 .synopsis-block{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.1) url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-  width: 90%;
-  flex-direction: column;
+  padding: 3em;
   margin: auto;
+  width: 75%;
+  background: rgba(0, 0, 0, 0.35) url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+  flex-direction: column;
   border-radius: 25px;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .synopsis-quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 0;
   transition: 0.5s;
-  
+  display: flex;
+  font-size: x-large;
+  width:fit-content
 }
 
-.synopsis-quote:hover {
+.synopsis-quote-link:hover {
   color: #b93f2d;
 }
 

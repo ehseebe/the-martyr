@@ -22,8 +22,18 @@ const Synopsis = () => {
           otherwise. According to her, de Rais was the victim of a vast
           conspiracy. <br/><br/>
           </p>
-          <a href='/innocent'><h3 className="main-subtitle text-focus-in">She’s so sure that she has <br/> <h3 className="synopsis-quote text-focus-in">“Gilles de Rais was innocent”</h3>
-          tattooed on her arm. <br/></h3></a><br/>
+          <a href='/innocent' className="synopsis-quote">
+            <h3 className="synopsis-quote text-focus-in">
+              She’s so sure that she has </h3>
+          
+              <h3 className="synopsis-quote synopsis-quote-link text-focus-in">
+                “Gilles de Rais was innocent”
+                </h3>
+
+          <h3 className="synopsis-quote text-focus-in">
+            tattooed on her arm. 
+          </h3>
+          </a>
 
           {/* <h2 className="main-subtitle">is he innocent?</h2> */}
           <p className="text-focus-in">
@@ -36,7 +46,7 @@ const Synopsis = () => {
           of unrequited love, The Martyr is a film about the dark obsessions
           that shape all of us.
         </p>
-        <a href='/timeline'><h2 className="main-subtitle synopsis-quote text-focus-in">... but who was Gilles de Rais?</h2></a>
+        <a href='/timeline' className="synopsis-quote"><h2 className="synopsis-quote synopsis-quote-link text-focus-in">... but who was Gilles de Rais?</h2></a>
         </div>
 
       </div>
