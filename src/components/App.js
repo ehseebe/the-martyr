@@ -17,7 +17,6 @@ import './App.css';
 const App = () => {
   return (
     <Router>
-      <div>
         <nav>
         <div id="mobile-menu">
 
@@ -85,7 +84,6 @@ const App = () => {
             <Home />
           </Route>
         </Switch>
-      </div>
       <footer>  © Anacolutha 2021. All rights reserved. </footer>
     </Router>
     
