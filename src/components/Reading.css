@@ -1,3 +1,15 @@
+.container-body-reading {
+  height: 100%;
+  width: 100%;
+  padding-top: 8vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero {
+  border-radius: 25px;
+}
+
 .further-reading {
   width: 90%;
   height: 90%;
@@ -39,7 +51,7 @@ div > ul {
 }
 
 .reading-category-card {
-  width: 40%;
+  /* width: 40%; */
   margin: 2em;
   display: flex;
   flex-direction: column;

@@ -3,7 +3,7 @@ import "./Reading.css";
 
 const Reading = () => {
   return (
-    <section>
+    <section className="container-body-reading">
       <article className="further-reading fade-in">
         {/* <h1 className="title">Reading</h1> */}
         <p>
@@ -14,6 +14,8 @@ const Reading = () => {
           of his guilt—while others settle for an intermediate position. See
           what you think.{" "}
         </p>
+
+          <img src="https://i.ibb.co/dLFj3bh/hero-reading.png" alt="hero-reading" border="0" className="hero"/>
 
         <div className="reading-category-card-grid">
 
