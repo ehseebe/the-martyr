@@ -3,7 +3,7 @@ import './Synopsis.css';
 
 const Synopsis = () => {
   return (
-    <section className="container-body">
+    <section className="container-body-synopsis">
       <div className="synopsis">
       <h4 className="main-subtitle fade-in-bottom">
             <img src="https://i.ibb.co/qdpGbCY/the-martyr-subtitle.png" alt="the-martyr-subtitle" />

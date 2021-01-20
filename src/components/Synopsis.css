@@ -1,4 +1,4 @@
-.container-body {
+.container-body-synopsis {
   height: 100%;
   width: 100%;
   padding-top: 7vh;
@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: center;
 }
+
 .synopsis {
   display: flex;
   flex-direction: column;
