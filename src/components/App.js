@@ -49,7 +49,17 @@ const App = () => {
 
             <li>
             <Link to="/innocent" className="innocent">Was He Innocent?</Link>
-            
+            <ul class="innocent-submenu">
+              <li>
+                <Link to='/innocent'>Innocent?</Link>
+              </li>
+              <li>
+                <Link to='/timeline'>Timeline</Link>
+              </li>
+              <li>
+                <Link to='/reading'>Resources</Link>
+              </li>
+            </ul>
               
             </li>
             {/* <li>

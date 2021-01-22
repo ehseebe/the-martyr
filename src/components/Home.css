@@ -10,11 +10,12 @@
 .main-title {
   overflow: hidden;
   margin: auto;
+  max-width: 70%;
 }
 
 .main-subtitle {
   margin: auto;
-  max-width: 70%;
+  max-width: 50%;
   text-align: center;
   font-size: x-large;
   margin: auto;

@@ -74,11 +74,13 @@ nav a:hover {
 
 nav li {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .innocent {
+  margin-top: 110px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,12 +93,27 @@ nav li {
   height: 125px;
   width: 125px;
   transition: 0.5s;
+  /* margin: 3em 0; */
 }
 
 .innocent:hover {
   background: #b9402d
     url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
   color: black;
+}
+
+.innocent-submenu {
+  padding: 0;
+  width: 50%;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.innocent-submenu > li {
+  padding: 0.5em;
 }
 
 section {
