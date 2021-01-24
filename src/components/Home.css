@@ -21,6 +21,15 @@
   margin: auto;
 }
 
+@media (max-width: 768px) {
+  .main-title {
+    max-width: 90%;
+  }
+  .main-subtitle {
+   max-width: 70%;
+  }
+}
+
 .main-title-hover {
     transition: all .5s ease-in;
 }

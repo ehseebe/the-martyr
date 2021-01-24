@@ -1,7 +1,7 @@
 .container-body-synopsis {
   height: 100%;
   width: 100%;
-  padding-top: 7vh;
+  padding-top: 12vh;
   background: url("https://i.ibb.co/njg8x7w/bg-synopsis.jpg");
   background-size: cover;
   background-position: center;
@@ -38,7 +38,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3em;
+  padding: 1.5em 2em;
   margin: auto;
   width: 75%;
   background: rgba(0, 0, 0, 0.35) url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
@@ -59,8 +59,25 @@ p {
   width:fit-content
 }
 
-.synopsis-quote-link:hover {
+/* .synopsis-quote-link:hover {
   color: #b93f2d;
+} */
+
+.synopsis-quote-link:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.synopsis-quote-link:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 
 .text-focus-in {

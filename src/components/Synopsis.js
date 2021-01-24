@@ -26,7 +26,7 @@ const Synopsis = () => {
             <h3 className="synopsis-quote ">
               She’s so sure that she has </h3>
           
-              <h3 className="synopsis-quote synopsis-quote-link ">
+              <h3 className="synopsis-quote synopsis-quote-link text-focus-in">
                 “Gilles de Rais was innocent”
                 </h3>
 
