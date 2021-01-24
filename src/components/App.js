@@ -31,10 +31,10 @@ const App = () => {
       <a href="/"><li>Home</li></a>
       <a href="/synopsis"><li>Synopsis</li></a>
       <a href="/trailer"><li>Trailer</li></a>
-      <a href="/innocent"><li>Innocent?</li></a>
-      <a href="/artwork"><li>Artwork</li></a>
-      <a href="/reading"><li>Reading</li></a>
+      <a href="/innocent"><li>Was He Innocent?</li></a>
       <a href="/timeline"><li>Timeline</li></a>
+      <a href="/reading"><li>Resources</li></a>
+      <a href="/artwork"><li>Press</li></a>
     </ul>
   </div>
           <ul id="desktop-menu">
