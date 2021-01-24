@@ -31,6 +31,7 @@
 p {
   text-align: justify;
   line-height: 25px;
+  font-size: small;
   padding:0;
 }
 
@@ -40,11 +41,10 @@ p {
   align-items: center;
   padding: 1.5em 2em;
   margin: auto;
-  width: 75%;
+  width: 65%;
   background: rgba(0, 0, 0, 0.35) url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
   flex-direction: column;
   border-radius: 25px;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .synopsis-quote {

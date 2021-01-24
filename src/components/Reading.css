@@ -1,22 +1,30 @@
 .container-body-reading {
   height: 100%;
   width: 100%;
-  padding-top: 8vh;
+  padding-top: 12vh;
   background-size: cover;
   background-position: center;
-}
-
-.hero {
-  border-radius: 25px;
+  background: url("https://i.ibb.co/dLFj3bh/hero-reading.png") no-repeat bottom right;
+  background-size: cover;
+  background-position: 75% 100%;
 }
 
 .further-reading {
-  width: 90%;
-  height: 90%;
-  margin-top: 7vh;
   display: flex;
+  padding: 1.5em 2em;
+  width: 65%;
+  background: rgba(0, 0, 0, 0.5) url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
   flex-direction: column;
+  border-radius: 25px;
   align-items: center;
+  margin: 5em auto;
+}
+
+.further-reading__header {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
 }
 
 .title {
@@ -30,17 +38,27 @@
   margin: auto;
 }
 
-p {
-  text-align: justify;
+.further-reading__intro {
+  text-align: center;
+  margin-top: 3em;
+  font-size: medium;
+  /* background-color: #b9402db4; */
+  /* padding: 1em;
+  border-radius: 25px; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 div > ul {
   display: inline;
   list-style: none;
-  text-align: justify;
+  /* text-align: justify; */
   padding: 0;
   line-height: 2em;
   font-size: small;
+}
+
+div > ul > li {
+  padding: 1em 0;
 }
 
 .reading-category-card-grid {
@@ -48,13 +66,19 @@ div > ul {
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .reading-category-card {
-  /* width: 40%; */
-  margin: 2em;
+  /* width: 40%;*/
+  margin: 2em; 
   display: flex;
   flex-direction: column;
+}
+
+.reading-category-card__header {
+  border-bottom: 2px solid white;
 }
 
 .fade-in {

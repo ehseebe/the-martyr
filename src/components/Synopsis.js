@@ -20,7 +20,7 @@ const Synopsis = () => {
           murderers in recorded history. Or, at least, that’s what history tells
           us. But Margot’s fanatical, 20-year long research project suggests
           otherwise. According to her, de Rais was the victim of a vast
-          conspiracy. <br/><br/>
+          conspiracy.
           </p>
           <a href='/innocent' className="synopsis-quote">
             <h3 className="synopsis-quote ">

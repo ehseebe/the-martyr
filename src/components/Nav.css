@@ -95,10 +95,11 @@ li:focus > ul {
 
 .innocent-submenu > li:hover,
 .innocent-submenu > li:focus {
-    background: black;
+    background: #b9402db4
+    url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
     border-bottom: 1px solid white;
     border-top: 1px solid white;
-    width: 88%;
+    width: 90%;
 }
 
 .innocent-submenu > li:hover > a,

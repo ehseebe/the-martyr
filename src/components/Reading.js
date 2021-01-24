@@ -5,22 +5,25 @@ const Reading = () => {
   return (
     <section className="container-body-reading">
       <article className="further-reading text-focus-in">
-        {/* <h1 className="title">Reading</h1> */}
-        <p>
+        <div className="further-reading__header">
+
+        {/* <img src="https://i.ibb.co/dLFj3bh/hero-reading.png" alt="hero-reading" border="0" className="hero"/> */}
+        <p className="further-reading__intro">
           Gilles de Rais has captured the European artistic imagination for
           centuries. Below, we offer a non-exhaustive list of fiction,
           non-fiction, academic literature, and other media which may interest
           you. Some argue for de Rais’ innocence, others offer gruesome accounts
-          of his guilt—while others settle for an intermediate position. See
-          what you think.{" "}
+          of his guilt—while others settle for an intermediate position. <br/><br/><i><h4>See
+          what you think.</h4></i>{" "}
         </p>
 
-          <img src="https://i.ibb.co/dLFj3bh/hero-reading.png" alt="hero-reading" border="0" className="hero"/>
+
+          </div>
 
         <div className="reading-category-card-grid">
 
         <div className="reading-category-card">
-          <h2>Literary Fiction</h2>
+          <h2 className="reading-category-card__header">Literary Fiction</h2>
           <ul>
             <li>1891: Là-bas, JK Huysmans</li>
             <li>1977: Dark Pageant, Edward Lucie-Smith</li>
@@ -31,7 +34,7 @@ const Reading = () => {
         </div>
 
         <div className="reading-category-card">
-          <h2>Comic Books</h2>
+          <h2 className="reading-category-card__header">Comic Books</h2>
           <ul>
             <li>1972: Le Crapouillot - N° 22 : Love & Magic, from Gilles de Rais to Rasputin, various</li>
             <li>1989: Jhen, Jean Pleyers and Jacques Martin</li>
@@ -39,7 +42,7 @@ const Reading = () => {
         </div>
 
         <div className="reading-category-card">
-          <h2>Non-fiction/True Crime</h2>
+          <h2 className="reading-category-card__header">Non-fiction/True Crime</h2>
           <ul>
             <li>1858: Curiosités de l’histoire de la France, Paul Lacroix</li>
             <li>1885: Gilles de Rais, Eugène Bossard</li>
@@ -55,7 +58,7 @@ const Reading = () => {
         </div>
 
         <div className="reading-category-card">
-          <h2>Academic Writing</h2>
+          <h2 className="reading-category-card__header">Academic Writing</h2>
 
           <ul>
             <li>1905: Gilles de Rais, Salomon Reinach</li>
@@ -66,7 +69,7 @@ const Reading = () => {
         </div>
 
         <div className="reading-category-card">
-          <h2>Other Media</h2>
+          <h2 className="reading-category-card__header">Other Media</h2>
 
           <ul>
             <li>1893: Gilles de Retz (opera), Paul Ladmirault</li>
