@@ -13,6 +13,7 @@ import Artwork from './Artwork';
 import Reading from './Reading';
 import Timeline from './Timeline';
 import './App.css';
+import './Nav.css';
 
 const App = () => {
   return (
@@ -40,19 +41,15 @@ const App = () => {
             <li>
               <Link to="/">Home</Link>
             </li>
-            {/* <li>
-              <Link to="/synopsis">Synopsis</Link>
-            </li> */}
             <li>
-              <Link to="/trailer">Trailer</Link>
+              <Link to="/synopsis">Synopsis</Link>
             </li>
-
             <li>
             <Link to="/innocent" className="innocent">Was He Innocent?</Link>
             <ul class="innocent-submenu">
-              <li>
+              {/* <li>
                 <Link to='/innocent'>Innocent?</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to='/timeline'>Timeline</Link>
               </li>
@@ -62,14 +59,11 @@ const App = () => {
             </ul>
               
             </li>
-            {/* <li>
-              <Link to="/artwork">Artwork</Link>
-            </li> */}
             <li>
-              <Link to="/reading">Resources</Link>
+              <Link to="/trailer">Trailer</Link>
             </li>
             <li>
-              <Link to="/timeline">Timeline</Link>
+              <Link to="/artwork">Press</Link>
             </li>
           </ul>
         </nav>
