@@ -9,11 +9,12 @@ const Home = () => {
 
   return (
     <>
-    <video className="martyr-video" autoPlay loop muted>
-          <source src={Martyr} type="video/mp4" />
-        </video>
+   
 
       <section>
+      <video className="martyr-video" autoPlay loop muted>
+          <source src={Martyr} type="video/mp4" />
+        </video>
         <div className="main-title-overlay">
         <a href="/synopsis" className="main-title-hover">
         <h4 className="main-subtitle fade-in-bottom">

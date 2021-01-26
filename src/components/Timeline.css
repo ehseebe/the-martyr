@@ -1,0 +1,28 @@
+.container-body-timeline {
+    height: 100%;
+    width: 90%;
+    margin:auto;
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.timeline-header {
+    margin: 3.5em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 2em;
+    width: 65%;
+    background: rgba(0, 0, 0, 0.35) url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+    flex-direction: column;
+    border-radius: 25px;
+}
+
+.vertical-timeline-element-content {
+    width: 90%;
+}
