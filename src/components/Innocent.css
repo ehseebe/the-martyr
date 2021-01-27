@@ -1,0 +1,28 @@
+.container-body-innocent {
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    padding-top: 20vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .innocent__header {
+    margin-top: 40px;
+  }
+
+  .innocent__header--intro {
+      margin-top: 40px;
+  }
+  .innocent__header--intro-crossout {
+      text-decoration: line-through;
+  }
+
+  .innocent__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+  }
