@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ModalVideo from "react-modal-video";
+import VideoModal from './VideoModal';
 import "./Innocent.css";
 
 const Innocent = () => {
@@ -24,19 +24,7 @@ const Innocent = () => {
       </div>
 
       <div className="innocent__content">
-        <div className="innocent__content--video-wrapper">
-          <ModalVideo
-            channel="vimeo"
-            autoplay
-            isOpen={isOpen}
-            videoId="253511068"
-            onClose={() => setOpen(false)}
-          />
-
-          <button className="btn-primary" onClick={() => setOpen(true)}>
-            VIEW DEMO
-          </button>
-        </div>
+        <VideoModal videoId="253511068" />
       </div>
     </section>
   );
