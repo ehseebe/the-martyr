@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import VideoModal from './VideoModal';
+import VideoModal from "./VideoModal";
 import "./Innocent.css";
 
 const Innocent = () => {
   const [isOpen, setOpen] = useState(false);
+  const [videoId, setVideoId] = useState("");
 
   return (
-    <section className="container-body-innocent">
+    <section className="container-body-innocent text-focus-in">
       <div className="innocent__header">
         <i>
           <h1> Was Gilles de Rais innocent? </h1>
@@ -24,7 +25,61 @@ const Innocent = () => {
       </div>
 
       <div className="innocent__content">
-        <VideoModal videoId="253511068" />
+        <VideoModal
+          videoId={253511068}
+          image={
+            "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
+          }
+        />
+
+        <VideoModal
+          videoId={253511068}
+          image={
+            "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
+          }
+        />
+
+        <VideoModal
+          videoId={253511068}
+          image={
+            "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
+          }
+        />
+
+        <VideoModal
+          videoId={253511068}
+          image={
+            "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
+          }
+        />
+
+        <VideoModal
+          videoId={253511068}
+          image={
+            "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
+          }
+        />
+
+        <VideoModal
+          videoId={253511068}
+          image={
+            "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
+          }
+        />
+
+        <VideoModal
+          videoId={253511068}
+          image={
+            "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
+          }
+        />
+
+        <VideoModal
+          videoId={253511068}
+          image={
+            "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
+          }
+        />
       </div>
     </section>
   );
