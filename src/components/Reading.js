@@ -3,24 +3,30 @@ import "./Reading.css";
 
 const Reading = () => {
   return (
-    <section className="container-body-reading">
-      <article className="further-reading text-focus-in">
-        <div className="further-reading__header">
+    <section className="container-body-reading text-focus-in">
+      
+        <div className="reading__header">
 
-        {/* <img src="https://i.ibb.co/dLFj3bh/hero-reading.png" alt="hero-reading" border="0" className="hero"/> */}
-        <p className="further-reading__intro">
+        <i>
+          <h1> The Life of Gilles de Rais </h1>
+        </i>
+
+        <p className="reading__header--intro">
           Gilles de Rais has captured the European artistic imagination for
           centuries. Below, we offer a non-exhaustive list of fiction,
           non-fiction, academic literature, and other media which may interest
           you. Some argue for de Rais’ innocence, others offer gruesome accounts
-          of his guilt—while others settle for an intermediate position. <br/><br/><i><h4>See
+          of his guilt—while others settle for an intermediate position. <br/><br/><i><h4 className="reading__header--subtitle">See
           what you think.</h4></i>{" "}
         </p>
 
 
+        <div className="reading__header__img">
+        <img src="https://i.ibb.co/dLFj3bh/hero-reading.png" alt="margot reading" border="0"></img>
+        </div>
           </div>
 
-        <div className="reading-category-card-grid">
+        <div className="reading__content">
 
         <div className="reading-category-card">
           <h2 className="reading-category-card__header">Literary Fiction</h2>
@@ -80,7 +86,6 @@ const Reading = () => {
           </ul>
         </div>
         </div>
-      </article>
     </section>
   );
 };

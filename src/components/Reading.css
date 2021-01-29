@@ -1,51 +1,58 @@
 .container-body-reading {
-  height: 100%;
-  width: 100%;
-  padding-top: 20vh;
-  background-size: cover;
-  background-position: center;
-  background: url("https://i.ibb.co/dLFj3bh/hero-reading.png") no-repeat bottom right;
-  background-size: cover;
-  background-position: 75% 100%;
-}
-
-.further-reading {
-  display: flex;
-  padding: 1.5em 2em;
-  width: 65%;
-  background: rgba(0, 0, 0, 0.5) url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-  flex-direction: column;
-  border-radius: 25px;
-  align-items: center;
-  margin: 5em auto;
-}
-
-.further-reading__header {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-}
-
-.title {
-  font-size: 15vw;
-  letter-spacing: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  display: inline-block;
+  height: 100vh;
+  width: 90%;
   margin: auto;
+  margin-top: 14em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.further-reading__intro {
-  text-align: center;
-  margin-top: 3em;
-  font-size: medium;
-  /* background-color: #b9402db4; */
-  /* padding: 1em;
-  border-radius: 25px; */
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+@media (max-width: 768px) {
+  .container-body-reading {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 7em;
+  }
+}
+
+
+.reading__header {
+  margin: 2em;
+  width: 50%;
+  height: 100%;
+}
+
+.reading__header--intro {
+  margin-top: 2em;
+}
+
+.reading__header--subtitle {
+  text-align: right;
+}
+
+.reading__header__img {
+  margin-top: 2em;
+}
+
+.reading__header__img img {
+  border-radius: 30px;
+}
+
+.reading__content {
+  margin: 2em;
+  width: 50%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .reading__header,
+  .reading__content {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 div > ul {
@@ -71,8 +78,7 @@ div > ul > li {
 }
 
 .reading-category-card {
-  /* width: 40%;*/
-  margin: 2em; 
+  margin: 0.5em; 
   display: flex;
   flex-direction: column;
 }
