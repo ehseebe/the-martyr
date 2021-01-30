@@ -3,15 +3,21 @@ import './Synopsis.css';
 
 const Synopsis = () => {
   return (
-    <section className="container-body-synopsis">
-      <div className="synopsis text-focus-in">
-      <h4 className="main-subtitle">
-            <img src="https://i.ibb.co/qdpGbCY/the-martyr-subtitle.png" alt="the-martyr-subtitle" />
-          </h4>
-          <h1 className="main-title">
-            <img src="https://i.ibb.co/7WGg8bg/the-martyr-title.png" alt="the-martyr-main-title" />
-          </h1>
-          <div className="synopsis-block">
+    <section className="container-body-synopsis text-focus-in">
+
+      <div className="synopsis__header">
+
+      <i>
+          <h1> Synopsis </h1>
+        </i>
+
+        <div className="synopsis__header__img">
+        <img src="https://i.ibb.co/njg8x7w/bg-synopsis.jpg" alt="margot at the castle" border="0"></img>
+        </div>
+      
+      </div>
+
+        <div className="synopsis__content">
         <p>
           They say never meet your heroes. 
           But what if your hero, like Margot K.
@@ -49,7 +55,6 @@ const Synopsis = () => {
         <a href='/timeline' className="synopsis-quote"><h2 className="synopsis-quote synopsis-quote-link text-focus-in">... but who was Gilles de Rais?</h2></a>
         </div>
 
-      </div>
     </section>
   );
 };

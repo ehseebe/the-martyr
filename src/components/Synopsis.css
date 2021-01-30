@@ -1,50 +1,56 @@
 .container-body-synopsis {
-  height: 100%;
-  width: 100%;
-  padding-top: 12vh;
-  background: url("https://i.ibb.co/njg8x7w/bg-synopsis.jpg");
-  background-size: cover;
-  background-position: center;
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+  margin-top: 14em;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* background: url("https://i.ibb.co/njg8x7w/bg-synopsis.jpg"); */
+
+@media (max-width: 768px) {
+  .container-body-synopsis {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 7em;
+  }
 }
 
-.synopsis {
+.synopsis__header {
+  margin: 2em;
+  width: 50%;
+  height: 100%;
+}
+
+.synopsis__header h1 {
+  text-transform: uppercase;
+}
+
+.synopsis__header__img {
+  margin-top: 2em;
+}
+
+.synopsis__header__img img {
+  border-radius: 30px;
+}
+
+.synopsis__content {
+  width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100%;
-  width: 100%;
-  border-radius: 25px;
-  padding: 5em 0;
 }
 
-.title {
-  font-size: 15vw;
-  letter-spacing: 3px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  display: inline-block;
-  margin: auto;
-}
-
-p {
-  text-align: justify;
-  line-height: 25px;
-  font-size: small;
-  padding:0;
-}
-
-.synopsis-block{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1.5em 2em;
-  margin: auto;
-  width: 65%;
-  background: rgba(0, 0, 0, 0.35) url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
-  flex-direction: column;
-  border-radius: 25px;
+@media (max-width: 768px) {
+  .synopsis__header,
+  .synopsis__content {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .synopsis-quote {
@@ -55,13 +61,9 @@ p {
   padding: 0;
   transition: 0.5s;
   display: flex;
-  font-size: x-large;
-  width:fit-content
+  font-size: large;
+  width: fit-content;
 }
-
-/* .synopsis-quote-link:hover {
-  color: #b93f2d;
-} */
 
 .synopsis-quote-link:after {    
   background: none repeat scroll 0 0 transparent;
@@ -79,63 +81,3 @@ p {
   width: 100%; 
   left: 0; 
 }
-
-.text-focus-in {
-	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-}
-
-@-webkit-keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 1;
-  }
-}
-@keyframes text-focus-in {
-  0% {
-    -webkit-filter: blur(12px);
-            filter: blur(12px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-filter: blur(0px);
-            filter: blur(0px);
-    opacity: 1;
-  }
-}
-
-
-.text-shadow-drop-center {
-	-webkit-animation: text-shadow-drop-center 0.6s both;
-	        animation: text-shadow-drop-center 0.6s both;
-}
-
-@-webkit-keyframes text-shadow-drop-center {
-  0% {
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
-  }
-}
-@keyframes text-shadow-drop-center {
-  0% {
-    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  }
-  100% {
-    text-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
-  }
-}
-
-
-/* @media (min-width: 768px) {
-  .title {
-    margin: 0;
-  }
-} */
