@@ -3,7 +3,7 @@ import ModalVideo from "react-modal-video";
 import 'react-modal-video/scss/modal-video.scss';
 import './Innocent.css'
 
-const VideoModal = ({videoId, image}) => {
+const VideoModal = ({videoId, image, alt}) => {
     const [isOpen, setOpen] = useState(false);
 
     console.log("???", videoId)
@@ -16,7 +16,7 @@ const VideoModal = ({videoId, image}) => {
             videoId={videoId}
             onClose={() => setOpen(false)}
           />
-            <img src={image} className="innocent__content__video-icon"
+            <img src={image} alt={alt}className="innocent__content__video-icon"
             onClick={() => setOpen(true)}/>
         </div>
     )

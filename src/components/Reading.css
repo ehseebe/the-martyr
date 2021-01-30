@@ -17,11 +17,14 @@
   }
 }
 
-
 .reading__header {
   margin: 2em;
   width: 50%;
   height: 100%;
+}
+
+.reading__header h1 {
+  text-transform: uppercase;
 }
 
 .reading__header--intro {

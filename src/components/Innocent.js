@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import VideoModal from "./VideoModal";
 import "./Innocent.css";
 
 const Innocent = () => {
-  const [isOpen, setOpen] = useState(false);
-  const [videoId, setVideoId] = useState("");
 
   return (
     <section className="container-body-innocent text-focus-in">
@@ -30,6 +28,7 @@ const Innocent = () => {
           image={
             "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
           }
+          alt={"description"}
         />
 
         <VideoModal
@@ -44,6 +43,7 @@ const Innocent = () => {
           image={
             "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
           }
+          alt={"description"}
         />
 
         <VideoModal
@@ -51,6 +51,7 @@ const Innocent = () => {
           image={
             "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
           }
+          alt={"description"}
         />
 
         <VideoModal
@@ -58,6 +59,7 @@ const Innocent = () => {
           image={
             "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
           }
+          alt={"description"}
         />
 
         <VideoModal
@@ -65,6 +67,7 @@ const Innocent = () => {
           image={
             "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
           }
+          alt={"description"}
         />
 
         <VideoModal
@@ -72,6 +75,7 @@ const Innocent = () => {
           image={
             "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
           }
+          alt={"description"}
         />
 
         <VideoModal
@@ -79,6 +83,7 @@ const Innocent = () => {
           image={
             "https://static.wikia.nocookie.net/criminalminds/images/e/ed/GillesR.jpg/revision/latest/scale-to-width-down/310?cb=20160422220338"
           }
+          alt={"description"}
         />
       </div>
     </section>

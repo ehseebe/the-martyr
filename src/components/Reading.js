@@ -29,7 +29,7 @@ const Reading = () => {
         <div className="reading__content">
 
         <div className="reading-category-card">
-          <h2 className="reading-category-card__header">Literary Fiction</h2>
+          <h3 className="reading-category-card__header">Literary Fiction</h3>
           <ul>
             <li>1891: Là-bas, JK Huysmans</li>
             <li>1977: Dark Pageant, Edward Lucie-Smith</li>
@@ -40,7 +40,7 @@ const Reading = () => {
         </div>
 
         <div className="reading-category-card">
-          <h2 className="reading-category-card__header">Comic Books</h2>
+          <h3 className="reading-category-card__header">Comic Books</h3>
           <ul>
             <li>1972: Le Crapouillot - N° 22 : Love & Magic, from Gilles de Rais to Rasputin, various</li>
             <li>1989: Jhen, Jean Pleyers and Jacques Martin</li>
@@ -48,7 +48,7 @@ const Reading = () => {
         </div>
 
         <div className="reading-category-card">
-          <h2 className="reading-category-card__header">Non-fiction/True Crime</h2>
+          <h3 className="reading-category-card__header">Non-fiction/True Crime</h3>
           <ul>
             <li>1858: Curiosités de l’histoire de la France, Paul Lacroix</li>
             <li>1885: Gilles de Rais, Eugène Bossard</li>
@@ -64,7 +64,7 @@ const Reading = () => {
         </div>
 
         <div className="reading-category-card">
-          <h2 className="reading-category-card__header">Academic Writing</h2>
+          <h3 className="reading-category-card__header">Academic Writing</h3>
 
           <ul>
             <li>1905: Gilles de Rais, Salomon Reinach</li>
@@ -75,7 +75,7 @@ const Reading = () => {
         </div>
 
         <div className="reading-category-card">
-          <h2 className="reading-category-card__header">Other Media</h2>
+          <h3 className="reading-category-card__header">Other Media</h3>
 
           <ul>
             <li>1893: Gilles de Retz (opera), Paul Ladmirault</li>

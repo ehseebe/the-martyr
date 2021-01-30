@@ -23,6 +23,10 @@
   height: 100%;
 }
 
+.innocent__header h1 {
+  text-transform: uppercase;
+}
+
 .innocent__header--intro {
   margin-top: 2em;
 }
