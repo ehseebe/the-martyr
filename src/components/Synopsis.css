@@ -7,7 +7,6 @@
   justify-content: center;
   align-items: flex-start;
 }
-/* background: url("https://i.ibb.co/njg8x7w/bg-synopsis.jpg"); */
 
 @media (max-width: 768px) {
   .container-body-synopsis {

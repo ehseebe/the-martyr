@@ -9,7 +9,7 @@ import Home from './Home';
 import Synopsis from './Synopsis';
 import Trailer from './Trailer';
 import Innocent from './Innocent';
-import Artwork from './Artwork';
+import Press from './Press';
 import Reading from './Reading';
 import Timeline from './Timeline';
 import './App.css';
@@ -34,7 +34,7 @@ const App = () => {
       <a href="/innocent"><li>Was He Innocent?</li></a>
       <a href="/timeline"><li>Timeline</li></a>
       <a href="/reading"><li>Resources</li></a>
-      <a href="/artwork"><li>Press</li></a>
+      <a href="/press"><li>Press</li></a>
     </ul>
   </div>
           <ul id="desktop-menu">
@@ -63,7 +63,7 @@ const App = () => {
               <Link to="/trailer">Trailer</Link>
             </li>
             <li>
-              <Link to="/artwork">Press</Link>
+              <Link to="/press">Press</Link>
             </li>
           </ul>
         </nav>
@@ -78,8 +78,8 @@ const App = () => {
           <Route path="/innocent">
             <Innocent />
           </Route>
-          <Route path="/artwork">
-            <Artwork />
+          <Route path="/press">
+            <Press />
           </Route>
           <Route path="/reading">
             <Reading />
