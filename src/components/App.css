@@ -33,14 +33,6 @@ body {
   background-color: black;
 }
 
-section {
-  height: 120vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 h1,
 h2,
 h3,
@@ -64,16 +56,13 @@ footer {
   box-sizing: border-box;
   position: relative;
   bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: black;
-  color: grey;
+  color: rgba(128, 128, 128, 0.608);
   font-size: small;
   font-weight: 700;
+  letter-spacing: 1px;
   text-transform: uppercase;
   padding: 1.5em;
-  text-align: center;
 }
 
 .text-focus-in {

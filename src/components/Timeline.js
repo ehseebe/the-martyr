@@ -15,7 +15,7 @@ const Timeline = () => {
           <h1> The Life of Gilles de Rais </h1>
         </i>
 
-        <p className="timeline__header--intro">I'm baby butcher vaporware thundercats portland gentrify PBR&B sartorial. Photo booth bicycle rights post-ironic pug. Migas woke gentrify beard hashtag narwhal selvage vegan roof party poke vexillologist quinoa. Microdosing four loko pabst YOLO messenger bag selfies vape, hella jianbing PBR&B intelligentsia. Swag freegan williamsburg ennui tumeric try-hard, kickstarter tofu aesthetic. Etsy tousled kogi flexitarian forage art party tilde taiyaki thundercats pork belly salvia kinfolk.</p>
+        {/* <p className="timeline__header--intro"></p> */}
         <div className="timeline__header__img">
         <img src="https://i.ibb.co/bzYws25/martyr-timeline.jpg" alt="martyr-timeline" border="0"></img>
         </div>

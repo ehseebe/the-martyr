@@ -40,8 +40,9 @@ nav a:focus {
 nav li {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  margin-left: 1rem;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 .innocent {
@@ -114,8 +115,9 @@ li:focus > ul {
     display: inline;
     position: absolute;
     top: 0;
-    left: 2.5em;
-    width:90vw;
+    left: 0;
+    margin: 0 2.5rem;
+    width: 90%;
     z-index: 1;
     -webkit-user-select: none;
     user-select: none;
@@ -125,6 +127,7 @@ li:focus > ul {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
+    margin-bottom: 1rem;
   }
   
   #mobile-menu li:hover {
@@ -204,15 +207,12 @@ li:focus > ul {
     margin: -100px 0 0 -50px;
     padding: 50px 30px;
     padding-top: 125px;
-  
     background: black;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     /* to stop flickering of text in safari */
-  
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
-  
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
   
@@ -229,8 +229,11 @@ li:focus > ul {
   }
   
   @media (min-width: 768px) {
-    #mobile-menu {
+    #desktop-menu {
       display: none;
+    }
+    nav {
+      background: none;
     }
   }
   

@@ -11,7 +11,7 @@ const Home = () => {
     <>
    
 
-      <section>
+      <section class="home">
       <video className="martyr-video" autoPlay loop muted>
           <source src={Martyr} type="video/mp4" />
         </video>
