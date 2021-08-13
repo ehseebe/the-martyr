@@ -1,16 +1,3 @@
-.reading__content {
-  margin: 2em;
-  height: 100%;
-}
-
-@media (max-width: 768px) {
-  .reading__header,
-.reading__content {
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 div > ul {
   display: inline;
   list-style: none;
@@ -48,7 +35,6 @@ div > ul > li {
 
 .reading-category-card__header {
   border-bottom: 2px solid white;
-  text-transform: uppercase;
   padding-bottom: 1rem;
   letter-spacing: 2px;
 }

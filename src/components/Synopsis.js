@@ -7,7 +7,9 @@ const Synopsis = () => {
     <div className="inner-container">
       <section className="two-column text-focus-in">
         <div className="two-column__content">
+        <div className="two-column__title">
           <h1> Synopsis </h1>
+          </div>
           <p>
           There is only one thing Margot Juby cares about more than poisonous plants and doll-collecting, and that's seeing her life's work completed: the exoneration of the world's oldest serial killer and gothic supervillain, Gilles de Rais. Armed with fresh evidence, she won't rest until everyone knows: de Rais was a medieval hero, and the most handsome man in the world. 
           </p>

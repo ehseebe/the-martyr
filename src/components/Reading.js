@@ -6,97 +6,162 @@ const Reading = () => {
   return (
     <section className="inner-container">
       <div className="one-column">
-        <h1> The Life of Gilles de Rais </h1>
+        <div className="one-column__title">
+          <h1> The Life of Gilles de Rais </h1>
+        </div>
 
-        <div className="image__wrap">
+        <div className="one-column__intro">
+          <p>
+            Gilles de Rais has captured the European artistic imagination for
+            centuries. Below, we offer a non-exhaustive list of fiction,
+            non-fiction, academic literature, and other media which may interest
+            you. Some argue for de Rais’ innocence, others offer gruesome
+            accounts of his guilt—while others settle for an intermediate
+            position.
+          </p>
+
+          <p>See what you think.</p>
+        </div>
+
+        <div className="one-column__image">
           <img src={resourcesImage} alt="margot at the castle" border="0"></img>
         </div>
 
-        <div className="reading__content">
+        <div className="one-column__content">
           <div className="reading-category-card">
-            <h3 className="reading-category-card__header">Literary Fiction</h3>
+            <h2 className="reading-category-card__header">Literary Fiction</h2>
             <ul>
-              <li>1891: Là-bas, JK Huysmans</li>
-              <li>1977: Dark Pageant, Edward Lucie-Smith</li>
               <li>
-                1990: The Life and Death of my Lord, Gilles de Rais, Robert Nye
+                <p>1891: Là-bas, JK Huysmans</p>
+              </li>
+              <li>
+                <p>1977: Dark Pageant, Edward Lucie-Smith</p>
+              </li>
+              <li>
+                <p>
+                  1990: The Life and Death of my Lord, Gilles de Rais, Robert
+                  Nye
+                </p>
               </li>
             </ul>
           </div>
 
           <div className="reading-category-card">
-            <h3 className="reading-category-card__header">Comic Books</h3>
+            <h2 className="reading-category-card__header">Comic Books</h2>
             <ul>
               <li>
-                1972: Le Crapouillot - N° 22 : Love & Magic, from Gilles de Rais
-                to Rasputin, various
+                <p>
+                  1972: Le Crapouillot - N° 22 : Love & Magic, from Gilles de
+                  Rais to Rasputin, various
+                </p>
               </li>
-              <li>1989: Jhen, Jean Pleyers and Jacques Martin</li>
+              <li>
+                <p>1989: Jhen, Jean Pleyers and Jacques Martin</p>
+              </li>
             </ul>
           </div>
 
           <div className="reading-category-card">
-            <h3 className="reading-category-card__header">
+            <h2 className="reading-category-card__header">
               Non-fiction/True Crime
-            </h3>
+            </h2>
             <ul>
-              <li>1858: Curiosités de l’histoire de la France, Paul Lacroix</li>
-              <li>1885: Gilles de Rais, Eugène Bossard</li>
               <li>
-                1930: The Banned Lectures: Gilles de Rais, Aleister Crowley
+                <p>1858: Curiosités de l’histoire de la France, Paul Lacroix</p>
               </li>
-              <li>1959: The Trial of Gilles de Rais, Georges Bataille</li>
-              <li>1971: The Real Bluebeard, Jean Benedetti</li>
               <li>
-                1992: Gilles de Rais ou La Gueule du loup, Gilbert Prouteau
+                <p>1885: Gilles de Rais, Eugène Bossard</p>
               </li>
-              <li>1992: Plaidoyer pour Gilles de Rais, Jean-Pierre Bayard</li>
-              <li>2005: Gilles de Rais, Jacques Heers</li>
-              <li>2012: Gilles de Rais, Matei Cazacu</li>
               <li>
-                2016: The Horrific Crimes of Gilles de Rais Revisited, Jack
-                Smith
+                <p>
+                  1930: The Banned Lectures: Gilles de Rais, Aleister Crowley
+                </p>
+              </li>
+              <li>
+                <p>1959: The Trial of Gilles de Rais, Georges Bataille</p>
+              </li>
+              <li>
+                <p>1971: The Real Bluebeard, Jean Benedetti</p>
+              </li>
+              <li>
+                <p>
+                  1992: Gilles de Rais ou La Gueule du loup, Gilbert Prouteau
+                </p>
+              </li>
+              <li>
+                <p>1992: Plaidoyer pour Gilles de Rais, Jean-Pierre Bayard</p>
+              </li>
+              <li>
+                <p>2005: Gilles de Rais, Jacques Heers</p>
+              </li>
+              <li>
+                <p>2012: Gilles de Rais, Matei Cazacu</p>
+              </li>
+              <li>
+                <p>
+                  2016: The Horrific Crimes of Gilles de Rais Revisited, Jack
+                  Smith
+                </p>
               </li>
             </ul>
           </div>
 
           <div className="reading-category-card">
-            <h3 className="reading-category-card__header">Academic Writing</h3>
+            <h2 className="reading-category-card__header">Academic Writing</h2>
 
             <ul>
-              <li>1905: Gilles de Rais, Salomon Reinach</li>
               <li>
-                1992: Gilles de Rais, de Gilbert Prouteau, ou le « Naufrage de
-                L'Histoire », Jean Kerhervé
+                <p>1905: Gilles de Rais, Salomon Reinach</p>
               </li>
               <li>
-                2012: Sympathy for the Devil : Gilles de Rais and His Modern
-                Apologists, Ben Parsons
+                <p>
+                  1992: Gilles de Rais, de Gilbert Prouteau, ou le « Naufrage de
+                  L'Histoire », Jean Kerhervé
+                </p>
               </li>
               <li>
-                2016: Medieval Religion and its Anxieties : History and Mystery
-                in the Other Middle Ages, Thomas A. Fudgé
+                <p>
+                  2012: Sympathy for the Devil : Gilles de Rais and His Modern
+                  Apologists, Ben Parsons
+                </p>
+              </li>
+              <li>
+                <p>
+                  2016: Medieval Religion and its Anxieties : History and
+                  Mystery in the Other Middle Ages, Thomas A. Fudgé
+                </p>
               </li>
             </ul>
           </div>
 
           <div className="reading-category-card">
-            <h3 className="reading-category-card__header">Other Media</h3>
+            <h2 className="reading-category-card__header">Other Media</h2>
 
             <ul>
-              <li>1893: Gilles de Retz (opera), Paul Ladmirault</li>
               <li>
-                1962: Films sans images: Gilles de Rais (radio play) Blaise
-                Cendrars
+                <p>1893: Gilles de Retz (opera), Paul Ladmirault</p>
               </li>
               <li>
-                1993: Le Tombeau de Gilles de Rais (opera), Edith Canat de Chizy
+                <p>
+                  1962: Films sans images: Gilles de Rais (radio play) Blaise
+                  Cendrars
+                </p>
               </li>
               <li>
-                2008: Godspeed on the Devil’s Thunder (music) Cradle of Filth
+                <p>
+                  1993: Le Tombeau de Gilles de Rais (opera), Edith Canat de
+                  Chizy
+                </p>
               </li>
               <li>
-                2014: Monstrum : le terrifiant destin de Gilles de Rais (film)
+                <p>
+                  2008: Godspeed on the Devil’s Thunder (music) Cradle of Filth
+                </p>
+              </li>
+              <li>
+                <p>
+                  2014: Monstrum : le terrifiant destin de Gilles de Rais (film)
+                </p>
               </li>
             </ul>
           </div>

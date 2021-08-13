@@ -11,9 +11,12 @@ const Timeline = () => {
   return (
     <section className="inner-container">
       <div className="one-column">
-        <h1> The Life of Gilles de Rais </h1>
 
-        <div className="image__wrap">
+      <div className="one-column__title">
+          <h1> The Life of Gilles de Rais:<br/> an Abbreviated Timeline</h1>
+        </div>
+
+        <div className="one-column__image">
           <img
             src={timelineImage}
             alt="margot at the castle"
@@ -21,6 +24,7 @@ const Timeline = () => {
           ></img>
         </div>
 
+        <div className="one-column__content">
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -184,6 +188,7 @@ const Timeline = () => {
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
+      </div>
       </div>
     </section>
   );
