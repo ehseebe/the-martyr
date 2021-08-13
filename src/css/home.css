@@ -1,0 +1,63 @@
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+.home .martyr-video {
+  object-fit: cover;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+}
+.home__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.home__title .main-title {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 90%;
+}
+@media (min-width: 768px) {
+  .home__title .main-title {
+    max-width: 90rem;
+  }
+}
+.home__title .main-title img {
+  object-fit: contain;
+  width: 100%;
+}
+.home__title .main-subtitle {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+@media (min-width: 768px) {
+  .home__title .main-subtitle {
+    max-width: 50rem;
+  }
+}
+.home__title .main-subtitle img {
+  object-fit: contain;
+  width: 100%;
+}
+
+.main-title-hover {
+  transition: all 0.5s ease-in;
+}
+
+.main-title-hover:hover {
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+}

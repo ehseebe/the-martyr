@@ -1,45 +1,31 @@
-.main-title-overlay {
-  z-index: 1;
-  background: rgba(0, 0, 0, 0);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.text-focus-in {
+	-webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
-.main-title {
-  overflow: hidden;
-  margin: auto;
-  max-width: 70%;
-}
-
-.main-subtitle {
-  margin: auto;
-  max-width: 50%;
-  text-align: center;
-  font-size: x-large;
-  margin: auto;
-}
-
-@media (max-width: 768px) {
-  .main-title {
-    max-width: 90%;
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
   }
-  .main-subtitle {
-   max-width: 70%;
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
   }
 }
-
-.main-title-hover {
-    transition: all .5s ease-in;
-}
-
-.main-title-hover:hover {
-    transform: scale(1.05);
-}
-
-a {
-    text-decoration: none;
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
 }
 
 .shadow-inset-center {
@@ -193,50 +179,4 @@ a {
     transform: translateY(0);
     opacity: 1;
   }
-}
-
-button {
-  display: inline-block;
-  border: none;
-  padding: 1rem 2rem;
-  /* margin: 3em; */
-  width: 10em;
-  text-decoration: none;
-  background: #b93f2d;
-  color: #ffffff;
-  font-family: sans-serif;
-  font-size: 1rem;
-  cursor: pointer;
-  text-align: center;
-  transition: background 250ms ease-in-out, transform 150ms ease;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border-radius: 25px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  /* font-family: "Pirata One", cursive; */
-  font-weight: 700;
-}
-
-button:hover,
-button:focus {
-  background: white;
-  color: #b93f2d;
-}
-
-button:focus {
-  outline: 1px solid #fff;
-  outline-offset: -4px;
-}
-
-button:active {
-  transform: scale(0.99);
-}
-
-.home {
-  height: 120vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
