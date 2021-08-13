@@ -1,52 +1,34 @@
 import React from "react";
-import './Synopsis.css';
+import synopsisImage from "../images/synopsis.jpeg"
+import "../scss/main.scss";
 
 const Synopsis = () => {
   return (
-    <section className="container-body-synopsis text-focus-in">
-
-      <div className="synopsis__header">
-
-      <i>
+    <div className="inner-container">
+      <section className="two-column text-focus-in">
+        <div className="two-column__content">
           <h1> Synopsis </h1>
-        </i>
-
-        <p>
-          They say never meet your heroes. 
-          But what if your hero, like Margot K.
-          Juby’s, is a 15th century serial killer? Gilles de Rais was a
-          nobleman, decorated military statesman—and one of the grisliest
-          murderers in recorded history. Or, at least, that’s what history tells
-          us. But Margot’s fanatical, 20-year long research project suggests
-          otherwise. According to her, de Rais was the victim of a vast
-          conspiracy.
-          </p>
-            <h3 className="synopsis-quote text-focus-in">
-              She’s so sure that she has “Gilles de Rais was innocent tattooed on her arm. 
-          </h3>
           <p>
-          The Martyr interweaves the deeply personal story
-          of how Margot came to fall in love with de Rais, with a gothic,
-          animated retelling of the nobleman’s life. Along the way, the film
-          uncovers an amusing plot by the French intelligentsia to exonerate the
-          nobleman, and a potential conspiracy at the heart of the medieval
-          French court. Painting an eerie, paranoid—yet compassionate—portrait
-          of unrequited love, The Martyr is a film about the dark obsessions
-          that shape all of us.
-        </p>
-        <h3 className="synopsis-quotetext-focus-in">... but who was Gilles de Rais?</h3>
-        
-      
-      </div>
-
-        <div className="synopsis__content">
-        <div className="synopsis__header__img">
-        <img src="https://i.ibb.co/njg8x7w/bg-synopsis.jpg" alt="margot at the castle" border="0"></img>
-        </div>
-        
+          There is only one thing Margot Juby cares about more than poisonous plants and doll-collecting, and that's seeing her life's work completed: the exoneration of the world's oldest serial killer and gothic supervillain, Gilles de Rais. Armed with fresh evidence, she won't rest until everyone knows: de Rais was a medieval hero, and the most handsome man in the world. 
+          </p>
+          
+          <p>
+          A quirky, docu-fairytale brought to life through hand-illustrated animation, The Martyr paints a sinister—yet compassionate—portrait of two outcasts, and the obsessions that bind them. In an era of true-crime fever and cancelled kingpins, the film leads us to wonder: what does it mean to love your hero—when he might also be a monster?
+          </p>
+          
         </div>
 
-    </section>
+        <div className="two-column__image">
+          <div className="image__wrap">
+            <img
+              src={synopsisImage}
+              alt="margot at the castle"
+              border="0"
+            ></img>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 };
 

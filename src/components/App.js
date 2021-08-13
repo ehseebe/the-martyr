@@ -8,13 +8,12 @@ import Press from "./Press";
 import Reading from "./Reading";
 import Timeline from "./Timeline";
 import Screenings from "./Screenings";
-import "./Nav.css";
 import "../scss/main.scss";
 
 const App = () => {
   return (
     <>
-      <Router>
+        <Router>
         <nav>
           <div id="mobile-menu">
             <input type="checkbox" />
@@ -40,53 +39,32 @@ const App = () => {
               <a href="/resources">
                 <li>Resources</li>
               </a>
-              {/* <a href="/press"><li>Press</li></a> */}
               <a href="/screenings">
                 <li>Screenings</li>
               </a>
               <footer> © Anacolutha 2021. All rights reserved. </footer>
             </ul>
           </div>
-          <ul id="desktop-menu">
-            {/* <li>
-              <Link to="/">Home</Link>
-            </li> */}
+          {/* <ul id="desktop-menu">
             <li>
               <Link to="/synopsis">Synopsis</Link>
             </li>
-            {/* <li> */}
-            {/* <Link to="/innocent" className="innocent">Was He Innocent?</Link> */}
             <li>
               <Link to="/timeline">Timeline</Link>
             </li>
-
             <li>
               <Link to="/reading">Resources</Link>
             </li>
-            {/* <ul class="innocent-submenu">
-              <li>
-                <Link to='/innocent'>Innocent?</Link>
-              </li>
-              <li>
-                <Link to='/timeline'>Timeline</Link>
-              </li>
-              <li>
-                <Link to='/reading'>Resources</Link>
-              </li>
-            </ul> */}
-
-            {/* </li> */}
             <li>
               <Link to="/trailer">Trailer</Link>
             </li>
-            {/* <li>
-              <Link to="/press">Press</Link>
-            </li> */}
+
             <li>
               <Link to="/screenings">Screenings</Link>
             </li>
-          </ul>
+          </ul> */}
         </nav>
+        <div className="container">
 
         <Switch>
           <Route path="/synopsis">
@@ -114,6 +92,7 @@ const App = () => {
             <Home />
           </Route>
         </Switch>
+        </div>
       </Router>
     </>
   );

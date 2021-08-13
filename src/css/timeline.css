@@ -1,0 +1,8 @@
+.vertical-timeline-element-content {
+  width: 75%;
+}
+@media (min-width: 768px) {
+  .vertical-timeline-element-content {
+    width: 90%;
+  }
+}

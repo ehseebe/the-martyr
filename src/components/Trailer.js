@@ -1,19 +1,18 @@
-import React from 'react';
-import ReactPlayer from 'react-player/vimeo';
-import './Trailer.css';
+import React from "react";
+import ReactPlayer from "react-player";
+import "../scss/main.scss";
 
 const Trailer = () => {
   return (
-    <section className="trailer">
       <ReactPlayer
-      className="react-player" 
-      url="https://vimeo.com/503848711" 
-      playing="true"
-      loop="true"
-      title="The Martyr Film"
+        className="react-player"
+        url="https://www.youtube.com/watch?v=0cjYWeqnm6U"
+        height="60vw"
+        width="80vw"
+        controls="false"
+        title="The Martyr Film"
       />
-    </section>
-  )
-}
+  );
+};
 
 export default Trailer;
