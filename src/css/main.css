@@ -257,6 +257,13 @@ p {
     width: 50%;
   }
 }
+.two-column__image .image__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 60rem;
+}
 .two-column__image .image__wrap img {
   border-radius: 30px;
   object-fit: contain;

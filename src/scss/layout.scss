@@ -120,6 +120,12 @@
     }
 
     .image__wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 60rem;
+
       img {
         border-radius: 30px;
         object-fit: contain;
