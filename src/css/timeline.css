@@ -6,3 +6,9 @@
     width: 90%;
   }
 }
+.vertical-timeline-element-content h3 {
+  font-size: 1.8rem;
+}
+.vertical-timeline-element-content p {
+  font-size: 1.6rem !important;
+}
