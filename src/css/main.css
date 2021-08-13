@@ -143,14 +143,14 @@ p {
 }
 
 .container {
-  padding-top: 10rem;
+  padding: 10rem 0 5rem;
   display: flex;
   justify-content: center;
   width: 100%;
 }
 @media (min-width: 1024px) {
   .container {
-    padding-top: 15rem;
+    padding: 15rem 0 10rem;
   }
 }
 
@@ -497,8 +497,8 @@ nav li {
   display: flex;
   flex-direction: column;
   margin-left: 1rem;
-  /* align-items: center;
-  justify-content: center; */
+  align-items: center;
+  justify-content: center;
 }
 
 .innocent {
@@ -566,7 +566,7 @@ li:focus > ul {
   display: inline;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 50%;
   margin: 0 2.5rem;
   width: 90%;
   z-index: 1;

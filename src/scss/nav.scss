@@ -41,8 +41,8 @@ nav {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
-    /* align-items: center;
-    justify-content: center; */
+    align-items: center;
+    justify-content: center;
   }
   
   .innocent {
@@ -115,7 +115,7 @@ nav {
       display: inline;
       position: absolute;
       top: 0;
-      left: 0;
+      left: 50%;
       margin: 0 2.5rem;
       width: 90%;
       z-index: 1;
