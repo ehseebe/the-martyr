@@ -4,8 +4,8 @@ import "../scss/main.scss";
 
 const Synopsis = () => {
   return (
-    <div className="inner-container synopsis">
-      <section className="two-column text-focus-in">
+    <div className="inner-container synopsis text-focus-in">
+      <section className="two-column">
         <div className="two-column__content">
         <div className="two-column__title">
           <h1> Synopsis </h1>
