@@ -4,7 +4,7 @@ import "../scss/main.scss";
 
 const Synopsis = () => {
   return (
-    <div className="inner-container">
+    <div className="inner-container synopsis">
       <section className="two-column text-focus-in">
         <div className="two-column__content">
         <div className="two-column__title">
@@ -17,7 +17,7 @@ const Synopsis = () => {
           <p>
           A quirky, docu-fairytale brought to life through hand-illustrated animation, The Martyr paints a sinister—yet compassionate—portrait of two outcasts, and the obsessions that bind them. In an era of true-crime fever and cancelled kingpins, the film leads us to wonder: what does it mean to love your hero—when he might also be a monster?
           </p>
-          
+        
         </div>
 
         <div className="two-column__image">
@@ -29,7 +29,11 @@ const Synopsis = () => {
             ></img>
           </div>
         </div>
+
       </section>
+      <div className="screening-note">
+        <p>For screening opportunities please contact themartyrfilm[a]gmail.com.</p>
+      </div>
     </div>
   );
 };
