@@ -34,7 +34,6 @@ export default function Nav() {
             <a href="/bios">
               <li>Bios</li>
             </a>
-            <footer> © Anacolutha 2021. All rights reserved. </footer>
           </ul>
         </div>
         {/* <ul id="desktop-menu">

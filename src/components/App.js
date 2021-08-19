@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Home";
 import Nav from "./Nav";
+import Footer from "./Footer";
 import Synopsis from "./Synopsis";
 import Trailer from "./Trailer";
 import Innocent from "./Innocent";
@@ -17,7 +18,7 @@ const App = () => {
     <>
       <Router>
         <div className="container">
-      <Nav />
+          <Nav />
           <Switch>
             <Route path="/synopsis">
               <Synopsis />
@@ -48,6 +49,7 @@ const App = () => {
             </Route>
           </Switch>
         </div>
+          <Footer />
       </Router>
     </>
   );
