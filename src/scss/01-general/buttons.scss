@@ -1,0 +1,67 @@
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  width: 10em;
+  text-decoration: none;
+  background: #b93f2d;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+button:hover,
+button:focus {
+  background: white;
+  color: #b93f2d;
+}
+
+button:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+button:active {
+  transform: scale(0.99);
+}
+
+a {
+  color: #ffffff;
+
+  &:visited {
+    color: #ffffff;
+  }
+
+  &:hover,
+  &:active {
+    color: #b93f2d;
+  }
+}
+
+.cta-link {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Spartan", Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 0.5px;
+  
+  &:hover,
+  &:active {
+    color: #b93f2d;
+    border-bottom: 1px solid #b93f2d;
+  }
+
+  &:visited {
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,66 @@
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+
+  .martyr-video {
+    object-fit: cover;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+  }
+
+  &__title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+    .main-title {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      max-width: 90%;
+
+      @media (min-width: 768px) {
+          max-width: 90rem;
+      }
+
+      img {
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+
+    .main-subtitle {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      max-width: 50%;
+
+      @media (min-width: 768px) {
+        max-width: 50rem;
+    }
+
+      img {
+        object-fit: contain;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.main-title-hover {
+  transition: all 0.5s ease-in;
+}
+
+.main-title-hover:hover {
+  transform: scale(1.05);
+}
+
+a {
+  text-decoration: none;
+}

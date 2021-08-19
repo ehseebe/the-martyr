@@ -1,15 +1,16 @@
 
-// general
-@import "base.scss";
-@import "layout.scss";
-@import "animations.scss";
-@import "buttons.scss";
+// 01-general
+@import "01-general/base.scss";
+@import "01-general/layout.scss";
+@import "01-general/animations.scss";
+@import "01-general/buttons.scss";
 
-// components
-@import "nav.scss";
-@import "video.scss";
-@import "timeline.scss";
+// 02-components
+@import "02-components/nav.scss";
+@import "02-components/video.scss";
 
-// pages
-@import "home.scss";
-@import "resources.scss";
+// 03-pages
+@import "03-pages/timeline.scss";
+@import "03-pages/home.scss";
+@import "03-pages/resources.scss";
+@import "03-pages/bios.scss";

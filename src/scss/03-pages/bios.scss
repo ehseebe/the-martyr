@@ -1,0 +1,57 @@
+.bios {
+  h2 {
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+
+    @media (min-width: 1200px) {
+      font-size: 2.5rem;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .two-column {
+    &:not(:first-child) {
+      padding-top: 6rem;
+
+      @media (min-width: 1024px) {
+        padding-top: 10rem;
+      }
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .align-right {
+    h2,
+    p {
+
+      @media (min-width: 1200px) {
+        text-align: right;
+      }
+    }
+
+    &.two-column__content {
+      margin-right: 0;
+      order: -1;
+
+      @media (min-width: 1200px) {
+        margin-left: 5rem;
+        order: 0;
+      }
+    }
+  }
+
+  .reading-category-card {
+
+    p {
+        margin: 0;
+    }
+  }
+}
