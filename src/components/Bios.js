@@ -18,7 +18,7 @@ const Bios = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Edmund Stenson{" "}
+                Edmund Stenson / Director
               </a>
             </h2>
           </div>
@@ -95,7 +95,7 @@ const Bios = () => {
                 rel="noopener noreferrer"
               >
                 {" "}
-                Robbie Ward{" "}
+                Robbie Ward / Animator
               </a>
             </h2>
           </div>
